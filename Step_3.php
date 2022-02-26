@@ -1,7 +1,9 @@
 <?php
- $variable_fname = "badih ";
- $variable_lname = "khoder";
+$name = "badih khoder ";
+$email = "badih_khoder@icloud.com";
+$height = 200;
+$width = 150;
+$area = $height * $width;
 
-
- echo  $variable_fname, $variable_lname;
-?>
+echo  "My name is $name and my email is $email";
+echo  "the area is $area";
