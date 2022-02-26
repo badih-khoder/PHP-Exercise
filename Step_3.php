@@ -7,3 +7,4 @@ $area = $height * $width;
 
 echo  "My name is $name and my email is $email";
 echo  "the area is $area";
+?>
