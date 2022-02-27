@@ -4,12 +4,13 @@ function palindrome($word)
 
 
 {
-  if ($word = strrev($word))
-  echo   strrev($word) . " is strrev " ;
-else {
-  echo "is not  strrev";
+
+  $x = strrev($word);
+  if ($word == $x)
+    echo   $x . " is strrev ";
+  else {
+    echo $x . " is not  strrev";
+  }
 }
 
-}
-
-palindrome("abc");
+palindrome("php");
